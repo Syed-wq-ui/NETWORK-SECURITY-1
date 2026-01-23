@@ -1,7 +1,10 @@
 
 from pymongo.mongo_client import MongoClient
 
+ # Add &tlsAllowInvalidCertificates=true and &directConnection=true
+
 uri = "mongodb+srv://FarooqTech:hello@cluster0.ohjptkl.mongodb.net/?appName=Cluster0"
+
 
 # Create a new client and connect to the server
 client = MongoClient(uri)
